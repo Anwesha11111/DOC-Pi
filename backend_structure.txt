@@ -1,0 +1,41 @@
+backend/
+│   requirements.txt
+│   Dockerfile
+│
+└───backend/app
+    │   __init__.py
+    │   main.py
+    │
+    ├───processing
+    │   │   __init__.py
+    │   │   ingest.py
+    │   │   clean.py
+    │   │   chunk.py
+    │
+    ├───embedding
+    │   │   __init__.py
+    │   │   embeddings.py
+    │
+    ├───index
+    │   │   __init__.py
+    │   │   store.py
+    │
+    ├───graph
+    │   │   __init__.py
+    │   │   graph_builder.py
+    │
+    ├───retrieval
+    │   │   __init__.py
+    │   │   bm25.py
+    │
+    ├───bfs
+    │   │   __init__.py
+    │   │   engine.py
+    │
+    ├───schema
+    │   │   __init__.py
+    │   │   models.py
+    │
+    └───api/v1
+        │   __init__.py
+        │   routes.py
