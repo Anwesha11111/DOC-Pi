@@ -16,3 +16,12 @@ Dist/
 # Docker files
 Dockerfile
 docker-compose.yml
+
+# Frontend generated files
+frontend/.next/
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.env
+frontend/.next/
+frontend/.next/
+frontend/.next

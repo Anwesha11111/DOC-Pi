@@ -1,0 +1,39 @@
+/* Home.module.css – premium hero styling */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 2rem;
+  background: linear-gradient(135deg, hsl(210, 40%, 12%), hsl(210, 40%, 18%));
+  color: #e0e0e0;
+  font-family: 'Inter', sans-serif;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0;
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+}
+
+.description {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  text-align: center;
+  max-width: 800px;
+  line-height: 1.6;
+}
+
+.hero {
+  margin-top: 2rem;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
